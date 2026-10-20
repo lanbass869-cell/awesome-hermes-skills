@@ -12,7 +12,6 @@
 
 > A curated, install-ready directory for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) ecosystem — the self-improving AI agent from [Nous Research](https://nousresearch.com). Covers the **82 built-in skills** and **117-skill optional catalog** that ship with Hermes v0.20.6, plus **169 community skills, plugins, agent profiles, memory providers, surfaces, and tools** vetted for quality.
 
-- [MemTether](https://github.com/MemTether/MemTether) - **[MemTether](https://github.com/MemTether/MemTether)** - Cross-client AI memory hub with tamper-evident evidence chain, supersession chains, 23 client adapters. 334 tests.
 Hermes is the only agent with a real learning loop. It writes its own skills from your workflows, searches its own past conversations, and runs anywhere — a $5 VPS, a GPU cluster, serverless, or your laptop. But the agent is only as powerful as the skills you give it. **This list is the shortcut.** Pick three, install in a minute, and your agent is twice as useful by tonight.
 
 ---
@@ -531,6 +530,7 @@ Deepfake detection for agents that ingest user-submitted media. Detects AI-gener
 
 ### 📺 Media & Transcripts
 
+- [MemTether](https://github.com/MemTether/MemTether) by [MemTether](https://github.com/MemTether) — Cross-client AI memory hub: agents share one SQLite memory.db via file-level pointers. Bi-temporal queries, supersession corrections, tamper-evident audit chain. 23 client adapters. **[production]**
 - [hermes-spotify-skill](https://github.com/Alexeyisme/hermes-spotify-skill) by [Alexeyisme](https://github.com/Alexeyisme) — Spotify control for headless Linux and Raspberry Pi. The only Linux-native Spotify skill in the ecosystem. **[beta]**
 - [youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) by [therohitdas](https://github.com/therohitdas) — Transcripts, search, channels, playlists. Cross-agent: Hermes, Claude, OpenClaw and other agent runtimes. Powered by [TranscriptAPI](https://transcriptapi.com). **[production]**
 
